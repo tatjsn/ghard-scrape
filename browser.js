@@ -4,7 +4,7 @@ async function job() {
         .filter(elem => elem.id.match(/^res_\d+$/))
         .map(post => post.querySelector('div.threadview_response_body'))
         .map((elem, index) => ({
-            id: index + 2,
+            id: index + 1,
             body: elem.textContent.trim(),
         }));
     var res = await fetch(
