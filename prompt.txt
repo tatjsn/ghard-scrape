@@ -1,0 +1,3 @@
+the json file contains a conversion log of a thread in internet forum. in each post contains id and the post body.
+
+summarise what they're taking about. give me a short summary and top 10 popular topics. be specific about those topics, not just categories. I need to catch up with them.
